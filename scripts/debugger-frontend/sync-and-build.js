@@ -26,7 +26,7 @@ const SignedSource = require('signedsource');
 const supportsColor = require('supports-color');
 
 const DEVTOOLS_FRONTEND_REPO_URL =
-  'https://github.com/facebookexperimental/rn-chrome-devtools-frontend';
+  'https://github.com/kaseywolff/rn-chrome-devtools-frontend.git';
 
 const config = {
   allowPositionals: true,

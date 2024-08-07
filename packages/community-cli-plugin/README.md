@@ -1,4 +1,5 @@
 # @react-native/community-cli-plugin
+test?
 
 > This is an internal dependency of React Native. **Please don't depend on it directly.**
 
