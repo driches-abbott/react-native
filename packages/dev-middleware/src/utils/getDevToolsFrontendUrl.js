@@ -34,8 +34,8 @@ export default function getDevToolsFrontendUrl(
     (options?.relative === true ? '' : devServerUrl) +
     '/debugger-frontend/' +
     (options?.useFuseboxEntryPoint === true
-      ? 'rn_fusebox.html'
-      : 'rn_inspector.html');
+      ? 'rn_inspector.html'
+      : 'rn_fusebox.html'); // KASEY SWAPPED THESE TO LAUNCH FUSEBOX ENTRYPOINT (eliminate need for separate browser)
 
   const searchParams = new URLSearchParams([
     [wsParam.key, wsParam.value],
